@@ -3,10 +3,6 @@ from random import randint
 
 with open("best.txt", "r") as f: rawBest = f.read().split(",")
 best = ((rawBest[0], rawBest[1]), int(rawBest[2]), int(rawBest[3]))
-#print(best)
-
-#print(bgmp.play(best[0]))
-#print(bgmp.play(("---AJ--Q---------QAKQJJ-QK", "-----A----KJ-K--------A---")))
 
 while True:
 	base = "------------------------------------AAAAKKKKQQQQJJJJ"
